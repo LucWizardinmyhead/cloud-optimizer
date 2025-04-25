@@ -17,4 +17,6 @@ terraform -chdir=infra apply
 kubectl apply -f infra/kubernetes/
 ```
 
-[📖 Full Case Study](docs/CASE_STUDY.md) | [📊 Architecture](docs/ARCHITECTURE.md)
+[📖 Full Case Study](docs/CASE_STUDY.md) | 
+
+![📊 Architecture](https://github.com/user-attachments/assets/cadcb937-4313-4d92-88ab-7f0576205ede)
