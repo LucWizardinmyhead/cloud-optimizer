@@ -8,14 +8,5 @@
 - **Self-healing** pods with liveness/readiness probes
 - **AWS ECR** vulnerability scanning
 - **Terraform**-managed infrastructure
-- **Prometheus** monitoring
-
-##  Quick Start
-```bash
-terraform -chdir=infra init
-terraform -chdir=infra apply
-kubectl apply -f infra/kubernetes/
-```
-
 
 ![📊 Architecture](https://github.com/user-attachments/assets/cadcb937-4313-4d92-88ab-7f0576205ede)
